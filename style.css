@@ -587,3 +587,294 @@ body {
     padding-top: 4px;
 
 }
+
+@media screen and (max-width:768px) {
+    .wrapper {
+        max-width: 768;
+        margin: 0 auto;
+    }
+
+    .header_wrapper {
+        display: flex;
+        font-family: 'Inika Regular', sans-serif;
+        font-weight: bold;
+        max-width: 668px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        line-height: 120px;
+    }
+
+    .header_logo {
+        margin-left: -3px;
+    }
+
+    .header_item {
+        margin-right: 47px;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    #welcome {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .wrapper_section_one {
+        max-width: 668px;
+        margin: 0 auto;
+        padding-bottom: 33px;
+
+    }
+
+    .leafs_section {
+        order: 1;
+    }
+
+    .leafs_welcome {
+        width: 280px;
+        height: 254px;
+        margin-top: 29px;
+        margin-right: -7px;
+    }
+
+    .h1_we_grow {
+        font-size: 35px;
+    }
+
+    .lorem_welcome_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #636060;
+        margin-bottom: 35px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    .text_section_one {
+        max-width: 337px;
+        margin-top: 38px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #about {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .section_about {
+        max-width: 668px;
+        margin: 0 auto;
+        flex-direction: column;
+        padding-bottom: 129px;
+    }
+
+    .house_plant {
+        width: 250px;
+        height: 258px;
+        margin-top: 33px;
+    }
+
+    .text_about {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+        color: #499A18;
+        max-width: 423px;
+        margin: 0 auto;
+        margin-top: -105px;
+    }
+
+    .wrapper_about_text {
+        margin-top: 20px;
+        min-width: 668px;
+        margin-top: 51px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #636060;
+        max-width: 668px;
+    }
+
+    .lorem_about {
+        margin-top: 52px;
+    }
+
+    #service {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .section_service {
+        max-width: 668px;
+        margin: 0 auto;
+    }
+
+    .Service_h2 {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        color: #499A18;
+    }
+
+    .button_service {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 60px;
+    }
+
+    .position_button {
+        margin-top: 41px;
+    }
+
+    .wrapper_service {
+        margin-top: 38px;
+        row-gap: 34px;
+    }
+
+    .card_header {
+        margin-right: 14px;
+        margin-top: 5px;
+        margin-left: 13px;
+        padding-bottom: 18px;
+        line-height: 25px;
+    }
+
+    .card_service {
+        max-width: 282px;
+    }
+
+    #prices {
+        max-width: 768px;
+        margin: 0 auto;
+        margin-top: 67px;
+        padding-bottom: 81px;
+    }
+
+    .section_prices {
+        max-width: 668px;
+        margin: 0 auto;
+    }
+
+    .head_h2_prices {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        color: #000000;
+        margin-left: 14px;
+        margin-top: 5px;
+    }
+
+    .about_prices_h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: right;
+        color: #000000;
+        max-width: 282px;
+        margin-top: 101px;
+
+    }
+
+    .wrapper_buttons_prices {
+        margin-top: 55px;
+
+    }
+
+    .contact_us_button {
+        margin-top: 28px;
+    }
+
+    .leafs_prices {
+        margin-top: 29px;
+    }
+
+    #contact_us {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .contact_us {
+        max-width: 668px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .button_city_acord {
+        order: 2;
+        margin-right: 65px;
+    }
+
+    .contact_h2 {
+        display: flex;
+        order: 1;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-bottom: 99px;
+    }
+
+    .contact_woman_picture {
+        order: 3;
+        display: flex;
+    }
+
+    .contact_woman {
+        margin-top: 151px;
+        margin-left: 21px;
+    }
+
+    .cyrcle_arrow_city {
+        margin-right: 36px;
+    }
+
+    .footer {
+        max-width: 768px;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .wrapper_footer {
+        max-width: 668px;
+        margin: 0 auto;
+        flex-direction: column;
+        line-height: 39px;
+    }
+
+    .github_footer {
+        margin-left: 250px;
+        margin-top: 29px;
+    }
+
+    .school_link {
+        margin-left: 229px;
+        margin-top: -7px;
+    }
+
+    .list_link_social {
+        min-width: 210px;
+        justify-content: center;
+        gap: 27px;
+    }
+
+    .soc_ico {
+        margin-top: 10px;
+    }
+}
